@@ -19,6 +19,12 @@ The 2-axis Pan-Tilt mechanism was custom-designed in **Autodesk Fusion 360** usi
   <img src="assets/gimbal_render1.png" width="80%" title="Pan-Tilt Gimbal Assembly Render" />
 </p>
 
+```markdown
+### 🛠️ Mechanical & CAD Specifications
+- **Format Compatibility:** Source CAD models are provided in both `.STEP` (for universal CAD editing) and `.STL` formats (ready for 3D printing/slicing).
+- **Manufacturing:** Optimized for FDM 3D printing with standard PLA/PETG materials.
+
+
 ### Key Mechanical Highlights:
 * **Compact & Low-CG Structure:** Designed with an offset horizontal bracket layout to bring the camera's center of mass closer to the rotation axes, minimizing servo torque requirement and dynamic stress.
 * **Vibration Reduction:** Rigorous closed-loop bracket geometry reduces high-frequency UAV frame vibrations, ensuring stable image capture for OpenCV processing.
