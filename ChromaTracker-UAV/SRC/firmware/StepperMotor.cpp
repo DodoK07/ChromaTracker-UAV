@@ -1,4 +1,3 @@
-<<<<<<< HEAD:SRC/firmware/StepperMotor.cpp
 #include "StepperMotor.hpp"
 #include <cmath>
 
@@ -65,7 +64,6 @@ bool StepperMotor::update() {
     }
 
     return false;
-=======
 #include "StepperMotor.hpp"
 #include <cmath>
 
@@ -132,5 +130,4 @@ bool StepperMotor::update() {
     }
 
     return false;
->>>>>>> 154958a933a51eedffe70a7aa25cfb87e1726161:ChromaTracker-UAV/SRC/firmware/StepperMotor.cpp
 }

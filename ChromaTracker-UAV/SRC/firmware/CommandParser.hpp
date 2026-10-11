@@ -1,4 +1,3 @@
-<<<<<<< HEAD:SRC/firmware/CommandParser.hpp
 #pragma once
 
 #include <cstdint>
@@ -30,7 +29,6 @@ private:
     TargetAngles m_lastangles;
 
     bool parseBuffer();
-=======
 #pragma once
 
 #include <cstdint>
@@ -62,5 +60,4 @@ private:
     TargetAngles m_lastangles;
 
     bool parseBuffer();
->>>>>>> 154958a933a51eedffe70a7aa25cfb87e1726161:ChromaTracker-UAV/SRC/firmware/CommandParser.hpp
 };

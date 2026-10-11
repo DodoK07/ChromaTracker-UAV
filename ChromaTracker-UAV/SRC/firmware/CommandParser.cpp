@@ -1,4 +1,3 @@
-<<<<<<< HEAD:SRC/firmware/CommandParser.cpp
 #include "CommandParser.hpp"
 #include <cstdlib>
 #include <cstring>
@@ -66,7 +65,6 @@ return false;
 TargetAngles CommandParser::getTargetAngles() const
 {
     return m_lastAngles;
-=======
 #include "CommandParser.hpp"
 #include <cstdlib>
 #include <cstring>
@@ -134,5 +132,4 @@ return false;
 TargetAngles CommandParser::getTargetAngles() const
 {
     return m_lastAngles;
->>>>>>> 154958a933a51eedffe70a7aa25cfb87e1726161:ChromaTracker-UAV/SRC/firmware/CommandParser.cpp
 }

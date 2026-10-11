@@ -1,4 +1,3 @@
-<<<<<<< HEAD:SRC/firmware/StepperMotor.hpp
 #pragma once
 
 #include <cstdint>
@@ -37,7 +36,6 @@ private:
     void setDirection(Direction dir);
     int32_t angleToSteps(float angle) const;
 };
-=======
 #pragma once
 
 #include <cstdint>
@@ -76,4 +74,3 @@ private:
     void setDirection(Direction dir);
     int32_t angleToSteps(float angle) const;
 };
->>>>>>> 154958a933a51eedffe70a7aa25cfb87e1726161:ChromaTracker-UAV/SRC/firmware/StepperMotor.hpp
